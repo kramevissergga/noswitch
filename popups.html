@@ -1,0 +1,683 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="preload" href="./assets/fonts/icons.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="shortcut icon" href="./assets/img/favicon.ico">
+		<title>Попапи</title>
+		<script type="module" crossorigin="" src="./js/app.min.js?v=1765213143621"></script>
+		<link rel="stylesheet" crossorigin="" href="./css/app.min.css?v=1765213143621">
+	</head>
+	<body>
+		<div class="wrapper">
+			<header data-fls-header="" class="header">
+				<nav data-fls-dynamic="[data-mobile-menu] .mobile-menu__body, 1399.98, 2" class="header__menu menu">
+					<ul>
+						<li>
+							<a href="#">Home</a>
+						</li>
+						<li>
+							<a href="#">Agents Catalog</a>
+						</li>
+						<li>
+							<a href="#">Request History</a>
+						</li>
+						<li>
+							<a href="#">Favourite AI</a>
+						</li>
+					</ul>
+				</nav>
+				<div class="separator"></div>
+				<a href="#" class="header__cart _icon-cart"></a>
+				<button data-fls-dynamic="[data-mobile-menu] .mobile-menu__body, 767.98, 0" class="header__publish _icon-plus">Publish AI</button>
+				<!--
+<button class="header__login gr-btn _icon-user">
+Login
+</button>
+-->
+				<a href="#" data-fls-dynamic="[data-mobile-menu] .mobile-menu__body, 767.98, 1" class="header__profile gr-btn">
+					<div class="header__user user-header">
+						<img alt="Image" class="user-header__img" src="./assets/img/header/user.webp">
+						<div class="user-header__body">
+							<div class="user-header__title">Michael Johnson</div>
+							<div class="user-header__energy _sprite-energy">
+								<div style="--progress: 24.324324%" class="user-header__energy-line"></div>
+								<div class="user-header__energy-label">9%</div>
+							</div>
+						</div>
+					</div>
+				</a>
+				<div data-theme-toggle="" class="header__theme-switch _sprite-moon"></div>
+				<select data-fls-select="" data-fls-select-modif="lang">
+					<option data-fls-select-asset="assets/img/header/flags/01.svg" value="1" selected>EN</option>
+					<option data-fls-select-asset="assets/img/header/flags/02.svg" value="2">UK</option>
+					<option data-fls-select-asset="assets/img/header/flags/03.svg" value="3">ES</option>
+				</select>
+				<button type="button" data-fls-menu="" class="header__icon icon-menu">
+					<span></span>
+				</button>
+			</header>
+			<div data-mobile-menu="" class="mobile-menu">
+				<div class="mobile-menu__header">
+					<div class="mobile-menu__title">Menu</div>
+					<button data-fls-menu="" class="mobile-menu__close _sprite-pixel-cross"></button>
+				</div>
+				<div data-fls-simplebar="" class="mobile-menu__scroll inner-scrollbar">
+					<div class="mobile-menu__body"></div>
+				</div>
+			</div>
+			<div class="side-menu">
+				<div class="side-menu__header">
+					<div class="side-menu__logo">
+						<svg xmlns="http://www.w3.org/2000/svg" width="44" height="20" viewbox="0 0 44 20" fill="none">
+							<rect x="22.8584" y="11.1729" width="3.02862" height="2.89669" fill="#6BA9B0"></rect>
+							<rect x="19.4961" y="5.37988" width="3.02862" height="2.89669" fill="#CE7DBA"></rect>
+							<rect x="13.4121" width="3.02862" height="2.89669" fill="#CE7DBA"></rect>
+							<rect x="28.9883" width="3.02862" height="2.89669" fill="#6BA9B0"></rect>
+							<rect x="35.0459" y="2.89648" width="3.02862" height="2.89669" fill="#6BA9B0"></rect>
+							<rect x="38.5068" y="5.37988" width="3.02862" height="2.89669" fill="#6BA9B0"></rect>
+							<rect x="37.6416" y="11.1729" width="3.02862" height="2.89669" fill="#6BA9B0"></rect>
+							<rect x="40.6699" y="8.27637" width="3.02862" height="2.89669" fill="#6BA9B0"></rect>
+							<rect x="34.1797" y="14.0693" width="3.02862" height="2.89669" fill="#6BA9B0"></rect>
+							<rect x="30.2861" y="16.9668" width="3.02862" height="2.89669" fill="#6BA9B0"></rect>
+							<rect x="7.78809" y="2.89648" width="3.02862" height="2.89669" fill="#CE7DBA"></rect>
+							<rect x="2.16309" y="5.37988" width="3.02862" height="2.89669" fill="#CE7DBA"></rect>
+							<rect x="2.16309" y="11.1729" width="3.02862" height="2.89669" fill="#CE7DBA"></rect>
+							<rect x="7.78809" y="14.0693" width="3.02862" height="2.89669" fill="#CE7DBA"></rect>
+							<rect x="12.1143" y="16.9668" width="3.02862" height="2.89669" fill="#CE7DBA"></rect>
+							<rect y="8.27637" width="3.02862" height="2.89669" fill="#CE7DBA"></rect>
+							<rect x="15.5752" width="3.02862" height="2.89669" fill="var(--text-color, #D9D9D9)"></rect>
+							<rect x="18.6035" width="3.02862" height="2.89669" fill="var(--text-color, #D9D9D9)"></rect>
+							<rect x="21.6328" width="3.02862" height="2.89669" fill="var(--text-color, #D9D9D9)"></rect>
+							<rect x="24.6621" width="3.02862" height="2.89669" fill="var(--text-color, #D9D9D9)"></rect>
+							<rect x="27.6904" width="3.02862" height="2.89669" fill="var(--text-color, #D9D9D9)"></rect>
+							<rect x="30.7197" y="2.89648" width="3.02862" height="2.89669" fill="var(--text-color, #D9D9D9)"></rect>
+							<rect x="33.748" y="2.89648" width="3.02862" height="2.89669" fill="var(--text-color, #D9D9D9)"></rect>
+							<rect x="33.748" y="5.37988" width="3.02862" height="2.89669" fill="var(--text-color, #D9D9D9)"></rect>
+							<rect x="36.7764" y="5.37988" width="3.02862" height="2.89669" fill="var(--text-color, #D9D9D9)"></rect>
+							<rect x="36.7764" y="8.27637" width="3.02862" height="2.89669" fill="var(--text-color, #D9D9D9)"></rect>
+							<rect x="33.3145" y="11.1729" width="3.02862" height="2.89669" fill="var(--text-color, #D9D9D9)"></rect>
+							<rect x="29.8535" y="14.0693" width="3.02862" height="2.89669" fill="var(--text-color, #D9D9D9)"></rect>
+							<rect x="9.08594" y="14.0693" width="3.02862" height="2.89669" fill="var(--text-color, #D9D9D9)"></rect>
+							<rect x="3.89453" y="11.1729" width="3.02862" height="2.89669" fill="var(--text-color, #D9D9D9)"></rect>
+							<rect x="1.73047" y="8.27637" width="3.02862" height="2.89669" fill="var(--text-color, #D9D9D9)"></rect>
+							<rect x="4.32617" y="5.37988" width="3.02862" height="2.89669" fill="var(--text-color, #D9D9D9)"></rect>
+							<rect x="9.51855" y="2.89648" width="3.02862" height="2.89669" fill="var(--text-color, #D9D9D9)"></rect>
+							<rect x="28.5557" y="16.9668" width="3.02862" height="2.89669" fill="var(--text-color, #D9D9D9)"></rect>
+							<rect x="22.499" y="16.9668" width="3.02862" height="2.89669" fill="var(--text-color, #D9D9D9)"></rect>
+							<rect x="16.4404" y="16.9668" width="3.02862" height="2.89669" fill="var(--text-color, #D9D9D9)"></rect>
+							<rect x="13.4121" y="16.9668" width="3.02862" height="2.89669" fill="var(--text-color, #D9D9D9)"></rect>
+							<rect x="39.8047" y="8.27637" width="3.02862" height="2.89669" fill="var(--text-color, #D9D9D9)"></rect>
+							<rect x="36.3428" y="11.1729" width="3.02862" height="2.89669" fill="var(--text-color, #D9D9D9)"></rect>
+							<rect x="32.8828" y="14.0693" width="3.02862" height="2.89669" fill="var(--text-color, #D9D9D9)"></rect>
+							<rect x="12.1143" y="14.0693" width="3.02862" height="2.89669" fill="var(--text-color, #D9D9D9)"></rect>
+							<rect x="6.92285" y="11.1729" width="3.02862" height="2.89669" fill="var(--text-color, #D9D9D9)"></rect>
+							<rect x="4.75977" y="8.27637" width="3.02862" height="2.89669" fill="var(--text-color, #D9D9D9)"></rect>
+							<rect x="7.35547" y="5.37988" width="3.02862" height="2.89669" fill="var(--text-color, #D9D9D9)"></rect>
+							<rect x="12.5469" y="2.89648" width="3.02862" height="2.89669" fill="var(--text-color, #D9D9D9)"></rect>
+							<rect x="21.2002" y="5.37988" width="3.02862" height="2.89669" fill="var(--text-color, #D9D9D9)"></rect>
+							<rect x="24.2285" y="5.37988" width="3.02862" height="2.89669" fill="var(--text-color, #D9D9D9)"></rect>
+							<rect x="24.2285" y="8.27637" width="3.02862" height="2.89669" fill="var(--text-color, #D9D9D9)"></rect>
+							<rect x="18.1719" y="8.27637" width="3.02862" height="2.89669" fill="var(--text-color, #D9D9D9)"></rect>
+							<rect x="18.1719" y="11.1729" width="3.02862" height="2.89669" fill="var(--text-color, #D9D9D9)"></rect>
+							<rect x="21.2002" y="11.1729" width="3.02862" height="2.89669" fill="var(--text-color, #D9D9D9)"></rect>
+							<rect x="25.5273" y="16.9668" width="3.02862" height="2.89669" fill="var(--text-color, #D9D9D9)"></rect>
+							<rect x="19.4697" y="16.9668" width="3.02862" height="2.89669" fill="var(--text-color, #D9D9D9)"></rect>
+						</svg>
+					</div>
+					<div class="side-menu__title">noswitch</div>
+				</div>
+				<div class="side-menu__icons">
+					<button data-side-toggle="" class="side-menu__icon big-icon-side _sprite-open"></button>
+					<button class="side-menu__icon side-menu__icon--temp big-icon-side _icon-search"></button>
+					<button class="side-menu__icon side-menu__icon--temp big-icon-side _icon-chat"></button>
+					<button class="side-menu__icon side-menu__icon--temp big-icon-side _icon-chats"></button>
+				</div>
+				<div data-fls-simplebar="" class="side-menu__scroll">
+					<div data-fls-spoilers="" class="side-menu__body">
+						<div class="side-menu__block">
+							<div class="side-menu__bl-title">
+								<div class="big-icon-side _icon-air-play"></div>
+								<span>My Projects</span>
+							</div>
+							<div class="side-menu__block-body">
+								<form action="#" class="side-menu__search search _icon-search">
+									<input type="text" placeholder="Search Projects" class="search__input input">
+								</form>
+								<div data-fls-spoilers="" class="side-menu__subs">
+									<div data-spoiler-item="" class="side-menu__sub">
+										<div data-spoiler-title="" class="side-menu__bl-title side-menu__bl-title--sub">
+											<div class="side-menu__sp-icon small-icon-side _icon-chevron"></div>
+											<span>Project Alpha</span>
+											<div class="side-menu__sub-counter">2</div>
+										</div>
+										<div data-spoiler-content="" class="side-menu__sub-body">
+											<div class="side-menu__sub-item sub-item">
+												<div class="sub-item__icon small-icon-side _icon-chat"></div>
+												<div class="sub-item__body">
+													<div class="sub-item__title">Creation of content for some things</div>
+													<div class="sub-item__label">2h ago</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div data-spoiler-item="" class="side-menu__sub">
+										<div data-spoiler-title="" class="side-menu__bl-title side-menu__bl-title--sub">
+											<div class="side-menu__sp-icon small-icon-side _icon-chevron"></div>
+											<span>Project Alpha</span>
+											<div class="side-menu__sub-counter">2</div>
+										</div>
+										<div data-spoiler-content="" class="side-menu__sub-body">
+											<div class="side-menu__sub-item sub-item">
+												<div class="sub-item__icon small-icon-side _icon-chat"></div>
+												<div class="sub-item__body">
+													<div class="sub-item__title">Creation of content for some things</div>
+													<div class="sub-item__label">2h ago</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div data-spoiler-item="" class="side-menu__sub">
+										<div data-spoiler-title="" class="side-menu__bl-title side-menu__bl-title--sub">
+											<div class="side-menu__sp-icon small-icon-side _icon-chevron"></div>
+											<span>Project Alpha</span>
+											<div class="side-menu__sub-counter">2</div>
+										</div>
+										<div data-spoiler-content="" class="side-menu__sub-body">
+											<div class="side-menu__sub-item sub-item">
+												<div class="sub-item__icon small-icon-side _icon-chat"></div>
+												<div class="sub-item__body">
+													<div class="sub-item__title">Creation of content for some things</div>
+													<div class="sub-item__label">2h ago</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div data-spoiler-item="" class="side-menu__block">
+							<div data-spoiler-title="" class="side-menu__bl-title">
+								<div class="big-icon-side _icon-chat"></div>
+								<span>My Projects</span>
+								<div class="side-menu__sp-icon big-icon-side _icon-chevron"></div>
+								<button data-sp-ignore="" class="side-menu__sp-add small-icon-side _icon-plus-thin"></button>
+							</div>
+							<div data-spoiler-content="" class="side-menu__block-body">
+								<div class="side-menu__item sub-item">
+									<div class="sub-item__icon small-icon-side _sprite-pin"></div>
+									<div class="sub-item__body">
+										<div class="sub-item__title">Chat 1</div>
+										<div class="sub-item__text">Create content marketing plan</div>
+										<div class="sub-item__label">2h ago</div>
+									</div>
+								</div>
+								<div class="side-menu__item sub-item">
+									<div class="sub-item__icon small-icon-side _icon-chat"></div>
+									<div class="sub-item__body">
+										<div class="sub-item__title">Chat 2</div>
+										<div class="sub-item__text">Write REST API code</div>
+										<div class="sub-item__label">Yesterday</div>
+									</div>
+								</div>
+								<div class="side-menu__item sub-item">
+									<div class="sub-item__icon small-icon-side _icon-chat"></div>
+									<div class="sub-item__body">
+										<div class="sub-item__title">Chat 3</div>
+										<div class="sub-item__text">Analyze Design trends</div>
+										<div class="sub-item__label">2 days ago</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div data-spoiler-item="" class="side-menu__block">
+							<div data-spoiler-title="" class="side-menu__bl-title">
+								<div class="big-icon-side _icon-chats"></div>
+								<span>Group Chats</span>
+								<div class="side-menu__sp-icon big-icon-side _icon-chevron"></div>
+								<button data-sp-ignore="" class="side-menu__sp-add small-icon-side _icon-plus-thin"></button>
+							</div>
+							<div data-spoiler-content="" class="side-menu__block-body">
+								<div class="side-menu__item sub-item">
+									<div class="sub-item__icon small-icon-side _sprite-pin"></div>
+									<div class="sub-item__body">
+										<div class="sub-item__title">Chat 1</div>
+										<div class="sub-item__label">5 members</div>
+									</div>
+								</div>
+								<div class="side-menu__item sub-item">
+									<div class="sub-item__icon small-icon-side _icon-chat"></div>
+									<div class="sub-item__body">
+										<div class="sub-item__title">Chat 2</div>
+										<div class="sub-item__label">3 members</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div data-fls-popup="add-main-popup" aria-hidden="true" class="popup popup--add">
+				<div data-fls-popup-wrapper="" class="popup__wrapper">
+					<div data-fls-popup-body="" class="popup__body">
+						<div class="add-popup">
+							<button data-fls-popup-close="" class="add-popup__close _sprite-pixel-cross"></button>
+							<h3 class="add-popup__title title">Add a Neural Network</h3>
+							<div class="add-popup__subtitle">Fill in the information about the new neural network for comparison</div>
+							<div class="add-popup__tabs">
+								<button class="add-popup__tab --active">
+									<div class="add-popup__tab-wrapper">
+										<div class="add-popup__tab-counter">1</div>
+										<span>Main Info</span>
+									</div>
+								</button>
+								<button class="add-popup__tab">
+									<div class="add-popup__tab-wrapper">
+										<div class="add-popup__tab-counter">2</div>
+										<span>Category</span>
+									</div>
+								</button>
+								<button class="add-popup__tab">
+									<div class="add-popup__tab-wrapper">
+										<div class="add-popup__tab-counter">3</div>
+										<span>Description</span>
+									</div>
+								</button>
+								<button class="add-popup__tab">
+									<div class="add-popup__tab-wrapper">
+										<div class="add-popup__tab-counter">4</div>
+										<span>Details</span>
+									</div>
+								</button>
+							</div>
+							<div class="add-popup__body">
+								<div class="add-popup__bl-title title">Main Info</div>
+								<div class="add-popup__cols">
+									<div class="add-popup__field field">
+										<div class="field__label">
+											Neural network name
+											<span style="color: #CE7DBA;">*</span>
+										</div>
+										<input type="text" placeholder="ChatGPT, Claude, Gemini..." name="name" class="field__input input">
+									</div>
+									<div class="add-popup__field field">
+										<div class="field__label">
+											Developer
+											<span style="color: #CE7DBA;">*</span>
+										</div>
+										<input type="text" placeholder="OpenAi, Anthropic, Google..." name="dev" class="field__input input">
+									</div>
+									<div class="add-popup__field field">
+										<div class="field__label">
+											Official website
+											<span style="color: #CE7DBA;">*</span>
+										</div>
+										<input type="text" placeholder="www.example.com" name="website" class="field__input input">
+									</div>
+									<div class="add-popup__field field">
+										<div class="field__label">
+											Neural network name
+											<span style="color: #CE7DBA;">*</span>
+										</div>
+										<input type="text" placeholder="ChatGPT, Claude, Gemini..." name="name" class="field__input input">
+									</div>
+								</div>
+								<div class="add-popup__field field">
+									<div class="field__label">
+										Logotype
+										<span style="color: #CE7DBA;">*</span>
+									</div>
+									<label class="field__file file-input _icon-upload">
+										Click or drag a file
+										<br>
+										PNG, JPG up to 2MB
+										<input type="file" accept="image/png, image/jpeg" multiple>
+									</label>
+								</div>
+							</div>
+							<div class="add-popup__footer">
+								<button class="add-popup__back _icon-ch-pixel-left">Back</button>
+								<div class="add-popup__pages">Step 1 of 4</div>
+								<button class="add-popup__button button">Next</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div data-fls-popup="add-categories-popup" aria-hidden="true" class="popup popup--add">
+				<div data-fls-popup-wrapper="" class="popup__wrapper">
+					<div data-fls-popup-body="" class="popup__body">
+						<div class="add-popup">
+							<button data-fls-popup-close="" class="add-popup__close _sprite-pixel-cross"></button>
+							<h3 class="add-popup__title title">Add a Neural Network</h3>
+							<div class="add-popup__subtitle">Fill in the information about the new neural network for comparison</div>
+							<div class="add-popup__tabs">
+								<button class="add-popup__tab --active">
+									<div class="add-popup__tab-wrapper">
+										<div class="add-popup__tab-counter">1</div>
+										<span>Main Info</span>
+									</div>
+								</button>
+								<button class="add-popup__tab --active">
+									<div class="add-popup__tab-wrapper">
+										<div class="add-popup__tab-counter">2</div>
+										<span>Category</span>
+									</div>
+								</button>
+								<button class="add-popup__tab">
+									<div class="add-popup__tab-wrapper">
+										<div class="add-popup__tab-counter">3</div>
+										<span>Description</span>
+									</div>
+								</button>
+								<button class="add-popup__tab">
+									<div class="add-popup__tab-wrapper">
+										<div class="add-popup__tab-counter">4</div>
+										<span>Details</span>
+									</div>
+								</button>
+							</div>
+							<div class="add-popup__body">
+								<div class="add-popup__bl-title title">Category & Price</div>
+								<div class="add-popup__field field">
+									<div class="field__label">
+										Category
+										<span style="color: #CE7DBA;">*</span>
+									</div>
+									<div class="field__cols">
+										<label class="field__btn-check">
+											<input type="checkbox" name="category">
+											Text
+										</label>
+										<label class="field__btn-check">
+											<input type="checkbox" name="category">
+											Image
+										</label>
+										<label class="field__btn-check">
+											<input type="checkbox" name="category">
+											Audio
+										</label>
+										<label class="field__btn-check">
+											<input type="checkbox" name="category">
+											Programming
+										</label>
+										<label class="field__btn-check">
+											<input type="checkbox" name="category">
+											Multimedia
+										</label>
+									</div>
+								</div>
+								<div class="add-popup__field field">
+									<div class="field__label">
+										Category
+										<span style="color: #CE7DBA;">*</span>
+									</div>
+									<div class="field__cols">
+										<label class="field__btn-check">
+											<input type="radio" name="pricing">
+											Free
+										</label>
+										<label class="field__btn-check">
+											<input type="radio" name="pricing">
+											Freemium
+										</label>
+										<label class="field__btn-check">
+											<input type="radio" name="pricing">
+											Paid
+										</label>
+										<label class="field__btn-check">
+											<input type="radio" name="pricing">
+											Via API
+										</label>
+									</div>
+								</div>
+							</div>
+							<div class="add-popup__footer">
+								<button class="add-popup__back _icon-ch-pixel-left">Back</button>
+								<div class="add-popup__pages">Step 2 of 4</div>
+								<button class="add-popup__button button">Next</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div data-fls-popup="add-desc-popup" aria-hidden="true" class="popup popup--add">
+				<div data-fls-popup-wrapper="" class="popup__wrapper">
+					<div data-fls-popup-body="" class="popup__body">
+						<div class="add-popup">
+							<button data-fls-popup-close="" class="add-popup__close _sprite-pixel-cross"></button>
+							<h3 class="add-popup__title title">Add a Neural Network</h3>
+							<div class="add-popup__subtitle">Fill in the information about the new neural network for comparison</div>
+							<div class="add-popup__tabs">
+								<button class="add-popup__tab --active">
+									<div class="add-popup__tab-wrapper">
+										<div class="add-popup__tab-counter">1</div>
+										<span>Main Info</span>
+									</div>
+								</button>
+								<button class="add-popup__tab --active">
+									<div class="add-popup__tab-wrapper">
+										<div class="add-popup__tab-counter">2</div>
+										<span>Category</span>
+									</div>
+								</button>
+								<button class="add-popup__tab --active">
+									<div class="add-popup__tab-wrapper">
+										<div class="add-popup__tab-counter">3</div>
+										<span>Description</span>
+									</div>
+								</button>
+								<button class="add-popup__tab">
+									<div class="add-popup__tab-wrapper">
+										<div class="add-popup__tab-counter">4</div>
+										<span>Details</span>
+									</div>
+								</button>
+							</div>
+							<div class="add-popup__body">
+								<div class="add-popup__bl-title title">Description and features</div>
+								<div class="add-popup__field field">
+									<div class="field__label">
+										Description
+										<span style="color: #CE7DBA;">*</span>
+									</div>
+									<textarea class="field__textarea textarea" placeholder="Describe your AI" name="desc"></textarea>
+								</div>
+								<div class="add-popup__field field">
+									<div class="field__label">
+										Key features
+										<span style="color: #CE7DBA;">*</span>
+										<span class="gray">(select multiple)</span>
+									</div>
+									<div class="field__cols">
+										<label class="field__btn-check">
+											<input type="checkbox" name="features">
+											Long context
+										</label>
+										<label class="field__btn-check">
+											<input type="checkbox" name="features">
+											Quick response
+										</label>
+										<label class="field__btn-check">
+											<input type="checkbox" name="features">
+											Working with code
+										</label>
+										<label class="field__btn-check">
+											<input type="checkbox" name="features">
+											Image analysis
+										</label>
+										<label class="field__btn-check">
+											<input type="checkbox" name="features">
+											Image generation
+										</label>
+										<label class="field__btn-check">
+											<input type="checkbox" name="features">
+											Voice input
+										</label>
+									</div>
+								</div>
+							</div>
+							<div class="add-popup__footer">
+								<button class="add-popup__back _icon-ch-pixel-left">Back</button>
+								<div class="add-popup__pages">Step 3 of 4</div>
+								<button class="add-popup__button button">Next</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div data-fls-popup="add-tech-popup" aria-hidden="true" class="popup popup--add">
+				<div data-fls-popup-wrapper="" class="popup__wrapper">
+					<div data-fls-popup-body="" class="popup__body">
+						<div class="add-popup">
+							<button data-fls-popup-close="" class="add-popup__close _sprite-pixel-cross"></button>
+							<h3 class="add-popup__title title">Add a Neural Network</h3>
+							<div class="add-popup__subtitle">Fill in the information about the new neural network for comparison</div>
+							<div class="add-popup__tabs">
+								<button class="add-popup__tab --active">
+									<div class="add-popup__tab-wrapper">
+										<div class="add-popup__tab-counter">1</div>
+										<span>Main Info</span>
+									</div>
+								</button>
+								<button class="add-popup__tab --active">
+									<div class="add-popup__tab-wrapper">
+										<div class="add-popup__tab-counter">2</div>
+										<span>Category</span>
+									</div>
+								</button>
+								<button class="add-popup__tab --active">
+									<div class="add-popup__tab-wrapper">
+										<div class="add-popup__tab-counter">3</div>
+										<span>Description</span>
+									</div>
+								</button>
+								<button class="add-popup__tab --active">
+									<div class="add-popup__tab-wrapper">
+										<div class="add-popup__tab-counter">4</div>
+										<span>Details</span>
+									</div>
+								</button>
+							</div>
+							<div class="add-popup__body">
+								<div class="add-popup__bl-title title">Technical details</div>
+								<div class="add-popup__field field">
+									<div class="field__label">
+										Supported languages
+										<span style="color: #CE7DBA;">*</span>
+										<span class="gray">(select multiple)</span>
+									</div>
+									<div class="field__cols">
+										<label class="field__btn-check">
+											<input type="checkbox" name="langs">
+											English
+										</label>
+										<label class="field__btn-check">
+											<input type="checkbox" name="langs">
+											Ukrainian
+										</label>
+										<label class="field__btn-check">
+											<input type="checkbox" name="langs">
+											Japanese
+										</label>
+										<label class="field__btn-check">
+											<input type="checkbox" name="langs">
+											Chinese
+										</label>
+										<label class="field__btn-check">
+											<input type="checkbox" name="langs">
+											French
+										</label>
+										<label class="field__btn-check">
+											<input type="checkbox" name="langs">
+											Spainish
+										</label>
+									</div>
+								</div>
+								<div class="add-popup__cols">
+									<div class="add-popup__field field">
+										<div class="field__label">Response speed</div>
+										<select name="resp-speed" data-fls-select="">
+											<option value="" selected>Select</option>
+											<option value="2">2s</option>
+											<option value="3">5s</option>
+											<option value="4">10s</option>
+										</select>
+									</div>
+									<div class="add-popup__field field">
+										<div class="field__label">Maximum tokens</div>
+										<select name="resp-speed" data-fls-select="">
+											<option value="128000" selected>128 000</option>
+											<option value="98578">98 578</option>
+											<option value="46548">46 548</option>
+											<option value="24235">24 235</option>
+										</select>
+									</div>
+								</div>
+							</div>
+							<div class="add-popup__footer">
+								<button class="add-popup__back _icon-ch-pixel-left">Back</button>
+								<div class="add-popup__pages">Step 4 of 4</div>
+								<button class="add-popup__button button">Next</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div data-fls-popup="trial-popup" aria-hidden="true" class="popup popup--small">
+				<div data-fls-popup-wrapper="" class="popup__wrapper">
+					<div data-fls-popup-body="" class="popup__body">
+						<div class="small-popup">
+							<div class="small-popup__header">
+								<h3 class="small-popup__title title">Thank you for using the trial version of Noswitch</h3>
+								<p class="small-popup__text">Log in and register to use all features of Noswitch</p>
+							</div>
+							<div class="small-popup__buttons">
+								<button class="small-popup__button button button--white">Login</button>
+								<button class="small-popup__button button button--gray">Register for free</button>
+							</div>
+							<button data-fls-popup-close="" class="small-popup__text-btn">Do not login</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div data-fls-popup="cancel-sub-popup" aria-hidden="true" class="popup popup--small popup--dark">
+				<div data-fls-popup-wrapper="" class="popup__wrapper">
+					<div data-fls-popup-body="" class="popup__body">
+						<div class="small-popup">
+							<div class="small-popup__header">
+								<h3 class="small-popup__title title">Done! Your AI has
+						been added</h3>
+								<p class="small-popup__text">You can start working</p>
+							</div>
+							<div class="small-popup__buttons">
+								<button data-fls-popup-close="" class="small-popup__button button button--white">Continue</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<main class="page">
+				<div class="buttons">
+					<button data-fls-popup-link="add-main-popup" class="button">Add Main</button>
+					<button data-fls-popup-link="add-categories-popup" class="button">Add Categories</button>
+					<button data-fls-popup-link="add-desc-popup" class="button">Add Desc</button>
+					<button data-fls-popup-link="add-tech-popup" class="button">Add Tech</button>
+					<button data-fls-popup-link="trial-popup" class="button">Trial</button>
+					<button data-fls-popup-link="cancel-sub-popup" class="button">Cancel Sub</button>
+				</div>
+				<style>
+					.buttons {
+      padding-top: 50px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      align-items: start;
+    }
+				</style>
+			</main>
+			<footer data-fls-footer="" class="footer"></footer>
+		</div>
+	</body>
+</html>
