@@ -5,9 +5,9 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="preload" href="./assets/fonts/icons.woff2" as="font" type="font/woff2" crossorigin="anonymous">
 		<link rel="shortcut icon" href="./assets/img/favicon.ico">
-		<title>Попапи</title>
-		<script type="module" crossorigin="" src="./js/app.min.js?v=1765214827376"></script>
-		<link rel="stylesheet" crossorigin="" href="./css/app.min.css?v=1765214827376">
+		<title>Popups</title>
+		<script type="module" crossorigin="" src="./js/app.min.js?v=1767847332001"></script>
+		<link rel="stylesheet" crossorigin="" href="./css/app.min.css?v=1767847332001">
 	</head>
 	<body>
 		<div class="wrapper">
@@ -48,7 +48,7 @@ Login
 						</div>
 					</div>
 				</a>
-				<div data-theme-toggle="" class="header__theme-switch _sprite-moon"></div>
+				<div data-theme-toggle="" class="header__theme-switch theme-switch _sprite-moon"></div>
 				<select data-fls-select="" data-fls-select-modif="lang">
 					<option data-fls-select-asset="assets/img/header/flags/01.svg" value="1" selected>EN</option>
 					<option data-fls-select-asset="assets/img/header/flags/02.svg" value="2">UK</option>
@@ -239,6 +239,16 @@ Login
 								<button data-sp-ignore="" class="side-menu__sp-add small-icon-side _icon-plus-thin"></button>
 							</div>
 							<div data-spoiler-content="" class="side-menu__block-body">
+								<div class="side-menu__soon-block soon-block">
+									<div class="soon-block__label">Coming soon</div>
+									<div class="soon-block__wrapper">
+										<div class="soon-block__text">
+											<p>
+												It allows multiple users to communicate and collaborate in a shared, real-time conversation thread.
+											</p>
+										</div>
+									</div>
+								</div>
 								<div class="side-menu__item sub-item">
 									<div class="sub-item__icon small-icon-side _sprite-pin"></div>
 									<div class="sub-item__body">
@@ -253,6 +263,137 @@ Login
 										<div class="sub-item__label">3 members</div>
 									</div>
 								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div data-chat-history="" class="chat-history">
+				<div class="chat-history__header">
+					<div class="chat-history__title">Conversation History</div>
+					<button data-chat-history-toggle="" class="chat-history__close _sprite-pixel-cross"></button>
+				</div>
+				<div class="chat-history__info header-result">
+					<div class="header-result__info">
+						<img alt="Image" class="header-result__pic" src="./assets/img/results/01.webp">
+						<div class="header-result__name">Claude</div>
+					</div>
+				</div>
+				<div class="chat-history__body">
+					<div data-fls-simplebar="" class="chat-history__scroll inner-scrollbar">
+						<div class="chat-history__items">
+							<div class="chat-history__date">Monday 11.02 22025</div>
+							<div class="chat-history__message message-comp _sprite-chat">Best graphics card 2025</div>
+							<div class="chat-history__answer item-result">
+								<div class="item-result__header header-result">
+									<div class="header-result__info">
+										<img alt="Image" class="header-result__pic" src="./assets/img/results/01.webp">
+										<div class="header-result__name">Claude</div>
+									</div>
+									<div class="header-result__actions actions-result">
+										<button class="actions-result__button _sprite-refresh"></button>
+										<button class="actions-result__button _sprite-copy"></button>
+										<button class="actions-result__button _sprite-share"></button>
+									</div>
+								</div>
+								<div class="item-result__body">
+									<div class="item-result__text text">
+										<p>
+											Based on the latest information, here are the best graphics cards in 2025:
+								Best Overall: NVIDIA RTX 5090
+								The RTX 5090 is the undisputed performance king, offering the fastest gaming performance available with
+								32GB of GDDR7 memory on a 512-bit bus PC GamerClub386.
+										</p>
+									</div>
+									<div class="main-input__label main-input__label--generating">
+										<div class="main-input__icon _sprite-generating"></div>
+										Generating...
+									</div>
+								</div>
+							</div>
+							<div class="chat-history__date">04:00 PM</div>
+							<div class="chat-history__message message-comp _sprite-chat">Best graphics card 2025</div>
+							<div class="chat-history__answer item-result">
+								<div class="item-result__header header-result">
+									<div class="header-result__info">
+										<img alt="Image" class="header-result__pic" src="./assets/img/results/01.webp">
+										<div class="header-result__name">Claude</div>
+									</div>
+									<div class="header-result__actions actions-result">
+										<button class="actions-result__button _sprite-refresh"></button>
+										<button class="actions-result__button _sprite-copy"></button>
+										<button class="actions-result__button _sprite-share"></button>
+									</div>
+								</div>
+								<div class="item-result__body">
+									<div class="item-result__text text">
+										<p>
+											Based on the latest information, here are the best graphics cards in 2025:
+								Best Overall: NVIDIA RTX 5090
+								The RTX 5090 is the undisputed performance king, offering the fastest gaming performance available with
+								32GB of GDDR7 memory on a 512-bit bus PC GamerClub386.
+										</p>
+									</div>
+									<div class="main-input__label main-input__label--generating">
+										<div class="main-input__icon _sprite-generating"></div>
+										Generating...
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="chat-history__footer">
+					<div class="chat-history__input main-input main-input--small">
+						<button class="main-input__send">
+							<svg xmlns="http://www.w3.org/2000/svg" width="50" height="48" viewbox="0 0 50 48" fill="none">
+								<rect width="7" height="7" transform="matrix(-1 0 0 1 19 0)" fill="var(--hv-dark-color, #C6232D)"></rect>
+								<rect width="7" height="7" transform="matrix(-1 0 0 1 32 7)" fill="var(--hv-dark-color, #C6232D)"></rect>
+								<rect width="7" height="7" transform="matrix(-1 0 0 1 45 13)" fill="var(--hv-dark-color, #C6232D)"></rect>
+								<rect width="7" height="7" transform="matrix(-1 0 0 1 45 27)" fill="var(--hv-dark-color, #C6232D)"></rect>
+								<rect width="7" height="7" transform="matrix(-1 0 0 1 32 34)" fill="var(--hv-dark-color, #C6232D)"></rect>
+								<rect width="7" height="7" transform="matrix(-1 0 0 1 22 41)" fill="var(--hv-dark-color, #C6232D)"></rect>
+								<rect width="7" height="7" transform="matrix(-1 0 0 1 50 20)" fill="var(--hv-dark-color, #C6232D)"></rect>
+								<rect width="7" height="7" transform="matrix(-1 0 0 1 14 0)" fill="#D9D9D9"></rect>
+								<rect width="7" height="7" transform="matrix(-1 0 0 1 7 0)" fill="#D9D9D9"></rect>
+								<rect width="7" height="7" transform="matrix(-1 0 0 1 7 7)" fill="#D9D9D9"></rect>
+								<rect width="7" height="7" transform="matrix(-1 0 0 1 7 14)" fill="#D9D9D9"></rect>
+								<rect width="7" height="7" transform="matrix(-1 0 0 1 7 21)" fill="#D9D9D9"></rect>
+								<rect width="7" height="7" transform="matrix(-1 0 0 1 7 28)" fill="#D9D9D9"></rect>
+								<rect width="7" height="7" transform="matrix(-1 0 0 1 7 35)" fill="#D9D9D9"></rect>
+								<rect width="7" height="7" transform="matrix(-1 0 0 1 7 41)" fill="#D9D9D9"></rect>
+								<rect width="7" height="7" transform="matrix(-1 0 0 1 13 41)" fill="#D9D9D9"></rect>
+								<rect width="7" height="7" transform="matrix(-1 0 0 1 29 34)" fill="#D9D9D9"></rect>
+								<rect width="7" height="7" transform="matrix(-1 0 0 1 41 27)" fill="#D9D9D9"></rect>
+								<rect width="7" height="7" transform="matrix(-1 0 0 1 46 20)" fill="#D9D9D9"></rect>
+								<rect width="7" height="7" transform="matrix(-1 0 0 1 40 13)" fill="#D9D9D9"></rect>
+								<rect width="7" height="7" transform="matrix(-1 0 0 1 28 7)" fill="#D9D9D9"></rect>
+								<rect width="7" height="7" transform="matrix(-1 0 0 1 19 41)" fill="#D9D9D9"></rect>
+								<rect width="7" height="7" transform="matrix(-1 0 0 1 22 34)" fill="#D9D9D9"></rect>
+								<rect width="7" height="7" transform="matrix(-1 0 0 1 34 27)" fill="#D9D9D9"></rect>
+								<rect width="7" height="7" transform="matrix(-1 0 0 1 39 20)" fill="#D9D9D9"></rect>
+								<rect width="7" height="7" transform="matrix(-1 0 0 1 33 13)" fill="#D9D9D9"></rect>
+								<rect width="7" height="7" transform="matrix(-1 0 0 1 21 7)" fill="#D9D9D9"></rect>
+							</svg>
+						</button>
+						<div data-fls-simplebar="" class="main-input__scroll inner-scrollbar">
+							<div class="main-input__wrapper">
+								<div class="main-input__info">
+									<div class="main-input__placeholder">Search anything</div>
+									<!--
+<div class="main-input__label main-input__label--generating">
+<div class="main-input__icon _sprite-generating">
+</div>
+Generating...
+</div>
+<div class="main-input__label main-input__label--error">
+<div class="main-input__icon _sprite-error">
+</div>
+Error
+</div>
+-->
+								</div>
+								<textarea rows="1" placeholder="" class="main-input__textarea"></textarea>
 							</div>
 						</div>
 					</div>
@@ -642,7 +783,26 @@ Login
 					</div>
 				</div>
 			</div>
-			<div data-fls-popup="cancel-sub-popup" aria-hidden="true" class="popup popup--small popup--dark">
+			<div data-fls-popup="limit-popup" aria-hidden="true" class="popup popup--small">
+				<div data-fls-popup-wrapper="" class="popup__wrapper">
+					<div data-fls-popup-body="" class="popup__body">
+						<div class="small-popup">
+							<div class="small-popup__header">
+								<h3 class="small-popup__title title">Out of limit</h3>
+								<p class="small-popup__text">
+									You have used all 10 slots for AI tools in your workspace. Upgrade your plan to add more tools and unlock
+						additional features.
+								</p>
+							</div>
+							<div class="small-popup__buttons">
+								<button class="small-popup__button button button--white">Upgrade your plan</button>
+								<button class="small-popup__button button button--gray">Later</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div data-fls-popup="ai-added-popup" aria-hidden="true" class="popup popup--small popup--dark">
 				<div data-fls-popup-wrapper="" class="popup__wrapper">
 					<div data-fls-popup-body="" class="popup__body">
 						<div class="small-popup">
@@ -658,6 +818,898 @@ Login
 					</div>
 				</div>
 			</div>
+			<div data-fls-popup="cancel-sub-2-popup" aria-hidden="true" class="popup popup--small popup--dark">
+				<div data-fls-popup-wrapper="" class="popup__wrapper">
+					<div data-fls-popup-body="" class="popup__body">
+						<div class="small-popup">
+							<div class="small-popup__header">
+								<h3 class="small-popup__title title">Do you want to cancel your subscription?</h3>
+								<p class="small-popup__text">You can resume it at any convenient time.</p>
+							</div>
+							<div class="small-popup__buttons">
+								<div class="small-popup__toggle-block toggle-block">
+									<div class="toggle-block__body">
+										<div class="toggle-block__title">Training Data</div>
+										<div class="toggle-block__desc">Allow use of your data to improve models</div>
+									</div>
+									<label class="toggle-block__switch switch">
+										<input type="checkbox">
+									</label>
+								</div>
+								<button data-fls-popup-close="" class="small-popup__button button button--white">No, I misclicked</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div data-fls-popup="profile-popup" aria-hidden="true" class="popup popup--profile">
+				<div data-fls-popup-wrapper="" class="popup__wrapper">
+					<div data-fls-popup-body="" class="popup__body">
+						<div data-fls-tabs="" class="profile-popup">
+							<button data-fls-popup-close="" class="profile-popup__close _sprite-pixel-cross"></button>
+							<div class="profile-popup__aside">
+								<div class="profile-popup__aside-header">
+									<h2 class="profile-popup__title title">My profile Settings</h2>
+								</div>
+								<div class="profile-popup__user user-block">
+									<div class="user-block__image">
+										<img class="ibg" alt="Image" src="./assets/img/header/user.webp">
+									</div>
+									<div class="user-block__body">
+										<div class="user-block__title">
+											<span class="ellipsis">Michael Johnson</span>
+										</div>
+										<div class="user-block__label">Arena Free</div>
+									</div>
+									<button class="user-block__button button">Upgrade</button>
+								</div>
+								<nav data-fls-tabs-titles="" class="profile-popup__navigation">
+									<button type="button" class="profile-popup__nav-title _sprite-profile-settings --tab-active">General</button>
+									<button type="button" class="profile-popup__nav-title _sprite-profile-bell">Notification</button>
+									<button type="button" class="profile-popup__nav-title _sprite-profile-chat">Personalization</button>
+									<button type="button" class="profile-popup__nav-title _sprite-profile-catalog">Integrations</button>
+									<button type="button" class="profile-popup__nav-title _sprite-profile-data">Data</button>
+									<button type="button" class="profile-popup__nav-title _sprite-profile-security">Security</button>
+									<button type="button" class="profile-popup__nav-title _sprite-profile-card">Subscription</button>
+									<button type="button" class="profile-popup__nav-title _sprite-profile-blocks">Favourite
+							AI</button>
+									<button type="button" class="profile-popup__nav-title _sprite-profile-robot">Apps Added by
+							Me</button>
+									<button type="button" class="profile-popup__nav-title _sprite-profile-robot">Apps Added by
+							Me 2</button>
+									<button type="button" class="profile-popup__nav-title _sprite-profile-lock">Parental Control</button>
+									<button type="button" class="profile-popup__nav-title _sprite-profile-lock">Parental Control 2</button>
+									<button type="button" class="profile-popup__nav-title _sprite-profile-key">API Keys</button>
+								</nav>
+							</div>
+							<div data-fls-select-one="" data-fls-tabs-body="" class="profile-popup__content">
+								<div class="profile-popup__body">
+									<div class="profile-popup__header">
+										<h3 class="profile-popup__title title">General</h3>
+									</div>
+									<div data-fls-simplebar="" class="profile-popup__scroll">
+										<div class="profile-popup__wrapper">
+											<div class="profile-popup__rows">
+												<div class="profile-popup__general general-pr">
+													<div class="general-pr__label">Appearance</div>
+													<select data-fls-select="">
+														<option value="1" selected>System</option>
+														<option value="2">Dark</option>
+														<option value="3">Light</option>
+													</select>
+												</div>
+												<div class="profile-popup__general general-pr">
+													<div class="general-pr__label">Language</div>
+													<select data-fls-select="">
+														<option value="1" selected>English</option>
+														<option value="2">Ukrainian</option>
+													</select>
+												</div>
+												<div class="profile-popup__general general-pr">
+													<div class="general-pr__label">Conversation language</div>
+													<select data-fls-select="">
+														<option value="1" selected>Auto-detect</option>
+														<option value="2" selected>English</option>
+														<option value="3">Ukrainian</option>
+													</select>
+												</div>
+											</div>
+											<div class="profile-popup__text">
+												For best results, select the language you primarily speak.
+									If it's not in the list, it may still be supported through automatic detection.
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="profile-popup__body">
+									<div class="profile-popup__header">
+										<h3 class="profile-popup__title title">General</h3>
+									</div>
+									<div data-fls-simplebar="" class="profile-popup__scroll">
+										<div class="profile-popup__wrapper">
+											<div class="profile-popup__rows">
+												<div class="profile-popup__toggle-block toggle-block">
+													<div class="toggle-block__body">
+														<div class="toggle-block__title">Email notifications</div>
+														<div class="toggle-block__desc">Receive updates about your account</div>
+													</div>
+													<label class="toggle-block__switch switch">
+														<input checked type="checkbox">
+													</label>
+												</div>
+												<div class="profile-popup__toggle-block toggle-block">
+													<div class="toggle-block__body">
+														<div class="toggle-block__title">Push notifications</div>
+														<div class="toggle-block__desc">Get notified on your device</div>
+													</div>
+													<label class="toggle-block__switch switch">
+														<input type="checkbox">
+													</label>
+												</div>
+												<div class="profile-popup__toggle-block toggle-block">
+													<div class="toggle-block__body">
+														<div class="toggle-block__title">Product updates</div>
+														<div class="toggle-block__desc">News about features and improvements</div>
+													</div>
+													<label class="toggle-block__switch switch">
+														<input type="checkbox">
+													</label>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="profile-popup__body">
+									<div class="profile-popup__header">
+										<h3 class="profile-popup__title title">Personalization</h3>
+									</div>
+									<div data-fls-simplebar="" class="profile-popup__scroll">
+										<div class="profile-popup__settings settings-pr">
+											<div class="settings-pr__block">
+												<div class="settings-pr__header">
+													<h4 class="settings-pr__title">Enable customization</h4>
+													<label class="settings-pr__switch switch">
+														<input type="checkbox">
+													</label>
+												</div>
+												<div class="settings-pr__body">
+													<div class="settings-pr__toggle-block toggle-block">
+														<div class="toggle-block__body">
+															<div class="toggle-block__title">Email notifications</div>
+															<div class="toggle-block__desc">Receive updates about your account</div>
+														</div>
+														<div class="toggle-block__select">
+															<select data-fls-select="">
+																<option value="1" selected>Default</option>
+																<option value="2">Option 1</option>
+																<option value="3">Option 2</option>
+																<option value="4">Option 3</option>
+															</select>
+														</div>
+													</div>
+													<div class="settings-pr__field field">
+														<div class="field__label">Custom instructions</div>
+														<div class="settings-pr__instructions">
+															<input type="text" placeholder="Behavior, style and tone preferences" name="instructions" class="field__input input">
+															<label class="field__btn-check">
+																<input type="checkbox">
+																Chatty
+															</label>
+															<label class="field__btn-check">
+																<input type="checkbox">
+																Witty
+															</label>
+															<label class="field__btn-check">
+																<input type="checkbox">
+																Straight shooting
+															</label>
+															<label class="field__btn-check">
+																<input type="checkbox">
+																Encouraging
+															</label>
+															<label class="field__btn-check">
+																<input type="checkbox">
+																Gen Z
+															</label>
+															<label class="field__btn-check">
+																<input type="checkbox">
+																Traditional
+															</label>
+															<button class="field__btn-check">⋮</button>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="settings-pr__block">
+												<div class="settings-pr__header">
+													<h4 class="settings-pr__title">Enable customization</h4>
+												</div>
+												<div class="settings-pr__body">
+													<div class="settings-pr__field field">
+														<div class="field__label">Nickname</div>
+														<input type="text" placeholder="What you prefer to be called?" name="nickname" class="field__input input">
+													</div>
+													<div class="settings-pr__field field">
+														<div class="field__label">Occupation</div>
+														<input type="text" placeholder="Sales and management" name="occupation" class="field__input input">
+													</div>
+													<div class="settings-pr__field field">
+														<div class="field__label">More about you</div>
+														<input type="text" placeholder="Interests, values or preferences" name="more" class="field__input input">
+													</div>
+												</div>
+											</div>
+											<div class="settings-pr__block">
+												<div class="settings-pr__header">
+													<h4 class="settings-pr__title">Memories</h4>
+												</div>
+												<div class="settings-pr__body">
+													<div class="settings-pr__toggle-block toggle-block">
+														<div class="toggle-block__body">
+															<div class="toggle-block__title _sprite-lock">Reference saved memories</div>
+															<div class="toggle-block__desc">Allow to save and use memories when responding.</div>
+															<a href="#" class="toggle-block__link">Upgrade your profile</a>
+														</div>
+														<label class="toggle-block__switch switch">
+															<input disabled type="checkbox">
+														</label>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="profile-popup__body">
+									<div class="profile-popup__header">
+										<h3 class="profile-popup__title title">Integrations</h3>
+									</div>
+									<div data-fls-simplebar="" class="profile-popup__scroll">
+										<div class="profile-popup__wrapper">
+											<div class="profile-popup__info">
+												Connect apps so you can talk to them with visual and interactive experiences in ChatGPT. Learn more.
+											</div>
+											<div class="profile-popup__integration item-model">
+												<div class="item-model__checkbox checkbox">
+													<div class="checkbox__icon _icon-check"></div>
+													<input checked type="checkbox">
+												</div>
+												<div class="item-model__title">
+													<div class="item-model__image">
+														<img alt="Image" src="./assets/img/integrations/01.webp">
+													</div>
+													Canva
+												</div>
+											</div>
+											<div class="profile-popup__integration item-model">
+												<div class="item-model__checkbox checkbox">
+													<div class="checkbox__icon _icon-check"></div>
+													<input type="checkbox">
+												</div>
+												<div class="item-model__title">
+													<div class="item-model__image">
+														<img alt="Image" src="./assets/img/integrations/02.webp">
+													</div>
+													Figma
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="profile-popup__body">
+									<div class="profile-popup__header">
+										<h3 class="profile-popup__title title">Data</h3>
+									</div>
+									<div data-fls-simplebar="" class="profile-popup__scroll">
+										<div class="profile-popup__rows">
+											<div class="profile-popup__toggle-block toggle-block">
+												<div class="toggle-block__body">
+													<div class="toggle-block__title _sprite-lock">Chat history</div>
+													<div class="toggle-block__desc">Save your Conversations</div>
+													<a href="#" class="toggle-block__link">Upgrade your profile</a>
+												</div>
+												<label class="toggle-block__switch switch">
+													<input disabled type="checkbox">
+												</label>
+											</div>
+											<div class="profile-popup__toggle-block toggle-block">
+												<div class="toggle-block__body">
+													<div class="toggle-block__title">Training Data</div>
+													<div class="toggle-block__desc">Allow use of your data to improve models</div>
+												</div>
+												<label class="toggle-block__switch switch">
+													<input type="checkbox">
+												</label>
+											</div>
+											<div class="profile-popup__buttons">
+												<button class="profile-popup__button button button--white">Export Data</button>
+												<button class="profile-popup__button button button--gray">Delete all conversations</button>
+												<button class="profile-popup__button button button--pink">Delete Account</button>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="profile-popup__body">
+									<div class="profile-popup__header">
+										<h3 class="profile-popup__title title">Security</h3>
+									</div>
+									<div data-fls-simplebar="" class="profile-popup__scroll">
+										<div class="profile-popup__rows">
+											<div class="profile-popup__toggle-block toggle-block">
+												<div class="toggle-block__body">
+													<div class="toggle-block__title">Authenticator App</div>
+													<div class="toggle-block__desc">Use one-time codes from an authenticator app.</div>
+												</div>
+												<label class="toggle-block__switch switch">
+													<input type="checkbox">
+												</label>
+											</div>
+											<div class="profile-popup__security security-pr">
+												<div class="security-pr__toggle-block toggle-block">
+													<div class="toggle-block__body">
+														<div class="toggle-block__title">Trusted Devices</div>
+														<div class="toggle-block__desc">
+															When you sign in on another device, it will be added here and can automatically receive device
+												prompts for signing in.
+														</div>
+													</div>
+												</div>
+												<div class="security-pr__device device-pr">
+													<div class="device-pr__title _sprite-phone">Iphone 16</div>
+													<button class="device-pr__button button button--gray">Log Out</button>
+													<button class="device-pr__remove action-btn _sprite-remove-circle"></button>
+												</div>
+												<div class="security-pr__toggle-block toggle-block">
+													<div class="toggle-block__body">
+														<div class="toggle-block__title">Log out of this device</div>
+													</div>
+													<button class="toggle-block__button button button--gray">Log Out</button>
+												</div>
+												<div class="security-pr__toggle-block toggle-block">
+													<div class="toggle-block__body">
+														<div class="toggle-block__title">Log out of all devices</div>
+														<div class="toggle-block__desc">
+															Log out of all active sessions across all devices, including your current session. It may take
+												up to 30 minutes for other devices to be logged out.
+														</div>
+													</div>
+													<button class="toggle-block__button button button--pink">Log Out All</button>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="profile-popup__body">
+									<div class="profile-popup__header">
+										<h3 class="profile-popup__title title">Subscription</h3>
+									</div>
+								</div>
+								<div class="profile-popup__body">
+									<div class="profile-popup__header">
+										<h3 class="profile-popup__title title">Favourite AI</h3>
+									</div>
+									<div class="profile-popup__rows profile-popup__rows--small-gap">
+										<label class="profile-popup___model item-model">
+											<div class="item-model__checkbox checkbox">
+												<div class="checkbox__icon _icon-check"></div>
+												<input type="checkbox">
+											</div>
+											<div class="item-model__title">
+												<img alt="Image" class="item-model__image" src="./assets/img/home/models/01.webp">
+												Chat GPT
+											</div>
+											<p class="item-model__text">Advanced language model for universal tasks</p>
+										</label>
+										<label class="profile-popup___model item-model">
+											<div class="item-model__checkbox checkbox">
+												<div class="checkbox__icon _icon-check"></div>
+												<input type="checkbox">
+											</div>
+											<div class="item-model__title">
+												<img alt="Image" class="item-model__image" src="./assets/img/home/models/02.webp">
+												Claude
+											</div>
+											<p class="item-model__text">AI assistant for development-related tasks</p>
+										</label>
+										<label class="profile-popup___model item-model">
+											<div class="item-model__checkbox checkbox">
+												<div class="checkbox__icon _icon-check"></div>
+												<input type="checkbox">
+											</div>
+											<div class="item-model__title">
+												<img alt="Image" class="item-model__image" src="./assets/img/home/models/03.webp">
+												Gemini
+											</div>
+											<p class="item-model__text">Multimodal AI model from Google</p>
+										</label>
+										<label class="profile-popup___model item-model">
+											<div class="item-model__checkbox checkbox">
+												<div class="checkbox__icon _icon-check"></div>
+												<input type="checkbox">
+											</div>
+											<div class="item-model__title">
+												<img alt="Image" class="item-model__image" src="./assets/img/home/models/04.webp">
+												Developer
+											</div>
+											<p class="item-model__text">Writes code, solves technical tasks and architectural problems</p>
+										</label>
+										<label class="profile-popup___model item-model">
+											<div class="item-model__checkbox checkbox">
+												<div class="checkbox__icon _icon-check"></div>
+												<input type="checkbox">
+											</div>
+											<div class="item-model__title">
+												<img alt="Image" class="item-model__image" src="./assets/img/home/models/05.webp">
+												Copywriter
+											</div>
+											<p class="item-model__text">Creates sales texts, advertising materials, and content</p>
+										</label>
+									</div>
+								</div>
+								<div class="profile-popup__body">
+									<div class="profile-popup__header">
+										<h3 class="profile-popup__title title">Apps Added by Me</h3>
+										<button class="profile-popup__add-btn add-btn _icon-plus">Add New AI</button>
+									</div>
+									<div class="profile-popup__rows profile-popup__rows--small-gap">
+										<div class="profile-popup___model item-model item-model--actions">
+											<div class="item-model__actions">
+												<button class="item-model__action action-btn _sprite-edit-circle"></button>
+												<button class="item-model__action action-btn _sprite-remove-circle"></button>
+											</div>
+											<div class="item-model__title">
+												<img alt="Image" class="item-model__image" src="./assets/img/home/models/01.webp">
+												Chat GPT
+											</div>
+											<p class="item-model__text">Advanced language model for universal tasks</p>
+										</div>
+										<div class="profile-popup___model item-model item-model--actions">
+											<div class="item-model__actions">
+												<button class="item-model__action action-btn _sprite-edit-circle"></button>
+												<button class="item-model__action action-btn _sprite-remove-circle"></button>
+											</div>
+											<div class="item-model__title">
+												<img alt="Image" class="item-model__image" src="./assets/img/home/models/02.webp">
+												Claude
+											</div>
+											<p class="item-model__text">Advanced language model for universal tasks</p>
+										</div>
+										<div class="profile-popup___model item-model item-model--actions">
+											<div class="item-model__actions">
+												<button class="item-model__action action-btn _sprite-edit-circle"></button>
+												<button class="item-model__action action-btn _sprite-remove-circle"></button>
+											</div>
+											<div class="item-model__title">
+												<img alt="Image" class="item-model__image" src="./assets/img/home/models/03.webp">
+												Gemini
+											</div>
+											<p class="item-model__text">Advanced language model for universal tasks</p>
+										</div>
+										<div class="profile-popup___model item-model item-model--actions">
+											<div class="item-model__actions">
+												<button class="item-model__action action-btn _sprite-edit-circle"></button>
+												<button class="item-model__action action-btn _sprite-remove-circle"></button>
+											</div>
+											<div class="item-model__title">
+												<img alt="Image" class="item-model__image" src="./assets/img/home/models/04.webp">
+												Developer
+											</div>
+											<p class="item-model__text">Advanced language model for universal tasks</p>
+										</div>
+										<div class="profile-popup___model item-model item-model--actions">
+											<div class="item-model__actions">
+												<button class="item-model__action action-btn _sprite-edit-circle"></button>
+												<button class="item-model__action action-btn _sprite-remove-circle"></button>
+											</div>
+											<div class="item-model__title">
+												<img alt="Image" class="item-model__image" src="./assets/img/home/models/05.webp">
+												Copywriter
+											</div>
+											<p class="item-model__text">Advanced language model for universal tasks</p>
+										</div>
+									</div>
+								</div>
+								<div class="profile-popup__body">
+									<div class="profile-popup__header">
+										<h3 class="profile-popup__title title">Apps Added by Me</h3>
+										<button class="profile-popup__add-btn add-btn _icon-plus">Add New AI</button>
+									</div>
+									<div class="profile-popup__rows profile-popup__rows--small-gap">
+										<button class="models-main__item item-model">
+											<div class="item-model__title">
+												<img alt="Image" class="item-model__image" src="./assets/img/home/models/add.webp">
+												Add more
+											</div>
+											<div class="profile-popup__toggle-block toggle-block">
+												<div class="toggle-block__body">
+													<div class="toggle-block__title">You don’t have any AI added yet</div>
+													<div class="toggle-block__desc">
+														Add a new AI now and unlock a special bonus—get early access to exclusive features designed to
+											boost your productivity!
+													</div>
+												</div>
+											</div>
+										</button>
+									</div>
+								</div>
+								<div class="profile-popup__body">
+									<div class="profile-popup__header">
+										<h3 class="profile-popup__title title">Parental Control</h3>
+									</div>
+									<div data-fls-simplebar="" class="profile-popup__scroll">
+										<div class="profile-popup__wrapper">
+											<div class="profile-popup__info">
+												Parents and teens can link accounts, giving parents tools to adjust certain features, set limits, and
+									add safeguards that work for their family.
+											</div>
+											<div class="profile-popup__settings settings-pr">
+												<div class="settings-pr__block">
+													<div class="settings-pr__header">
+														<h4 class="settings-pr__title">Family Members</h4>
+													</div>
+													<div class="settings-pr__user user-block">
+														<div class="user-block__image">
+															<img class="ibg" alt="Image" src="./assets/img/header/user.webp">
+														</div>
+														<div class="user-block__body">
+															<div class="user-block__title">
+																<span class="ellipsis">Michael Johnson</span>
+															</div>
+															<div class="user-block__label">
+																<span class="ellipsis">Michaelliss@gmail.com</span>
+															</div>
+														</div>
+														<div class="user-block__status">Parent</div>
+													</div>
+													<div class="settings-pr__user user-block">
+														<div class="user-block__image">
+															<img class="ibg" alt="Image" src="./assets/img/header/user.webp">
+														</div>
+														<div class="user-block__body">
+															<div class="user-block__title">
+																<span class="ellipsis">Maria Johnson</span>
+															</div>
+															<div class="user-block__label">
+																<span class="ellipsis">Mariajohnson@gmail.com</span>
+															</div>
+														</div>
+														<div class="user-block__status user-block__status--blue">Child</div>
+													</div>
+													<button class="profile-popup__add-btn add-btn _icon-plus">Add Family Member</button>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="profile-popup__body">
+									<div class="profile-popup__header">
+										<button class="profile-popup__back _icon-ch-pixel-left"></button>
+										<h3 class="profile-popup__title title">Parental Control</h3>
+									</div>
+									<div data-fls-simplebar="" class="profile-popup__scroll">
+										<div class="profile-popup__wrapper">
+											<div class="profile-popup__user user-block">
+												<div class="user-block__image">
+													<img class="ibg" alt="Image" src="./assets/img/header/user.webp">
+												</div>
+												<div class="user-block__body">
+													<div class="user-block__title">
+														<span class="ellipsis">Maria Johnson</span>
+													</div>
+													<div class="user-block__label">
+														<span class="ellipsis">Mariajohnson@gmail.com</span>
+													</div>
+												</div>
+												<div class="user-block__status user-block__status--blue">Child</div>
+											</div>
+											<div class="profile-popup__toggle-block toggle-block">
+												<div class="toggle-block__body">
+													<div class="toggle-block__title">Quiet hours</div>
+													<div class="toggle-block__desc">Schedule hours when Noswitch can't be used.</div>
+												</div>
+												<label class="toggle-block__switch switch">
+													<input checked type="checkbox">
+												</label>
+											</div>
+											<div class="profile-popup__toggle-block toggle-block">
+												<div class="toggle-block__body">
+													<div class="toggle-block__title">Reduce sensitive content</div>
+													<div class="toggle-block__desc">Add extra safety measures to protect your teens.</div>
+												</div>
+												<label class="toggle-block__switch switch">
+													<input type="checkbox">
+												</label>
+											</div>
+											<div class="profile-popup__toggle-block toggle-block">
+												<div class="toggle-block__body">
+													<div class="toggle-block__title">Memory Usage</div>
+													<div class="toggle-block__desc">Allow Noswitch to save and use memory entries when replying.</div>
+												</div>
+												<label class="toggle-block__switch switch">
+													<input type="checkbox">
+												</label>
+											</div>
+											<div class="profile-popup__toggle-block toggle-block">
+												<div class="toggle-block__body">
+													<div class="toggle-block__title">Voice Model</div>
+													<div class="toggle-block__desc">Allow your child to use voice mode in Noswitch</div>
+												</div>
+												<label class="toggle-block__switch switch">
+													<input type="checkbox">
+												</label>
+											</div>
+											<div class="profile-popup__toggle-block toggle-block">
+												<div class="toggle-block__body">
+													<div class="toggle-block__title">Image generation</div>
+													<div class="toggle-block__desc">Allow Noswitch to create and edit images.</div>
+												</div>
+												<label class="toggle-block__switch switch">
+													<input type="checkbox">
+												</label>
+											</div>
+											<button class="profile-popup__button profile-popup__button--start button button--pink">Unlink
+									Account</button>
+										</div>
+									</div>
+								</div>
+								<div class="profile-popup__body">
+									<div class="profile-popup__header">
+										<h3 class="profile-popup__title title">API Keys</h3>
+									</div>
+									<div data-fls-simplebar="" class="profile-popup__scroll">
+										<div class="profile-popup__rows profile-popup__rows--small-gap">
+											<div class="profile-popup__text">
+												API keys allow you to integrate ChatGPT into your applications. Keep your keys secure and never share
+									them publicly.
+											</div>
+											<button class="profile-popup__add-btn add-btn _icon-plus">Create new secret key</button>
+											<div class="profile-popup__device device-pr">
+												<div class="device-pr__title">Production Key</div>
+												<div class="device-pr__info">
+													<div class="device-pr__code">sk-proj-*********************</div>
+													<div class="device-pr__label">Created Oct 15, 2025</div>
+													<div class="device-pr__label">Last used 2 days ago</div>
+												</div>
+												<button class="device-pr__remove action-btn _sprite-remove-circle"></button>
+											</div>
+											<div class="profile-popup__device device-pr">
+												<div class="device-pr__title">Development Key</div>
+												<div class="device-pr__info">
+													<div class="device-pr__code">sk-proj-*********************</div>
+													<div class="device-pr__label">Created Oct 15, 2025</div>
+													<div class="device-pr__label">Last used 5 days ago</div>
+												</div>
+												<button class="device-pr__remove action-btn _sprite-remove-circle"></button>
+											</div>
+											<div class="profile-popup__usage usage-pr">
+												<div class="usage-pr__label">Usage this month</div>
+												<div class="usage-pr__value">
+													<span>$</span>
+													47.99
+												</div>
+												<div class="usage-pr__limit">of $100.00 limit</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div data-fls-popup="auth-popup" aria-hidden="true" class="popup popup--small">
+				<div data-fls-popup-wrapper="" class="popup__wrapper">
+					<div data-fls-popup-body="" class="popup__body">
+						<div class="small-popup">
+							<div class="small-popup__header">
+								<h3 class="small-popup__title title">Login or Register</h3>
+								<p class="small-popup__text">You will get access to the full functionality</p>
+							</div>
+							<div class="small-popup__wrapper">
+								<div class="small-popup__buttons">
+									<button class="small-popup__button button button--icon button--gray">
+										<img src="./assets/img/auth/01.svg" alt="Image">
+										Continue with Google
+									</button>
+									<button class="small-popup__button button button--icon button--gray">
+										<img src="./assets/img/auth/02.svg" alt="Image">
+										Continue with Apple
+									</button>
+									<button class="small-popup__button button button--icon button--gray">
+										<img src="./assets/img/auth/03.svg" alt="Image">
+										Continue with Microsoft
+									</button>
+									<button class="small-popup__button button button--icon button--gray">
+										<img src="./assets/img/auth/04.svg" alt="Image">
+										Continue with Phone Number
+									</button>
+								</div>
+								<div class="small-popup__or-label">Or</div>
+								<div class="small-popup__field field">
+									<input type="text" placeholder="Your Email address" name="email" class="field__input input">
+								</div>
+								<button class="small-popup__button button button--white">Continue</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div data-fls-popup="reg-popup" aria-hidden="true" class="popup popup--small">
+				<div data-fls-popup-wrapper="" class="popup__wrapper">
+					<div data-fls-popup-body="" class="popup__body">
+						<div class="small-popup">
+							<div class="small-popup__header">
+								<div class="small-popup__top">
+									<button class="small-popup__back _icon-ch-pixel-left"></button>
+									<h3 class="small-popup__title title">Registration</h3>
+								</div>
+								<p class="small-popup__text">Set password to continue</p>
+							</div>
+							<div class="small-popup__wrapper">
+								<div class="small-popup__field field">
+									<div class="field__auth-input">
+										<div class="field__auth-label">Your Email</div>
+										<input type="text" placeholder="Your Email address" name="dev" class="field__input input">
+									</div>
+									<div class="field__auth-input">
+										<div class="field__auth-label">Password</div>
+										<div class="field__pass">
+											<input type="password" name="password" class="field__input input">
+											<button class="field__pass-btn _sprite-eye"></button>
+										</div>
+									</div>
+								</div>
+								<button class="small-popup__button button button--white">Continue</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div data-fls-popup="data-export-popup" aria-hidden="true" class="popup popup--inter">
+				<div data-fls-popup-wrapper="" class="popup__wrapper">
+					<div data-fls-popup-body="" class="popup__body">
+						<div class="inter-popup">
+							<div class="inter-popup__header">
+								<div class="inter-popup__title title">Request Data export</div>
+								<button data-fls-popup-close="" class="inter-popup__close _sprite-pixel-cross"></button>
+							</div>
+							<div class="inter-popup__text text">
+								<ul>
+									<li>Your account details and chats will be included in the export.</li>
+									<li>The data will be sent to your registered email in a downloadable file.</li>
+									<li>The download link will expire 24 hours after you receive it.</li>
+									<li>Processing may take some time. You'll be notified when it's ready.</li>
+									<li>To proceed, click "Confirm export" below.</li>
+								</ul>
+							</div>
+							<div class="inter-popup__footer">
+								<button class="inter-popup__button button button--gray">Cancel</button>
+								<button class="inter-popup__button button">Confirm Export</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div data-fls-popup="delete-chats-popup" aria-hidden="true" class="popup popup--inter">
+				<div data-fls-popup-wrapper="" class="popup__wrapper">
+					<div data-fls-popup-body="" class="popup__body">
+						<div class="inter-popup">
+							<div class="inter-popup__header">
+								<div class="inter-popup__title inter-popup__title--warn title _sprite-warn">Delete all conversations</div>
+								<button data-fls-popup-close="" class="inter-popup__close _sprite-pixel-cross"></button>
+							</div>
+							<div class="inter-popup__text text">
+								<p>This action cannot be undone.</p>
+							</div>
+							<div class="inter-popup__footer">
+								<button class="inter-popup__button button button--gray">Cancel</button>
+								<button class="inter-popup__button button button--red">Confirm</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div data-fls-popup="delete-account-popup" aria-hidden="true" class="popup popup--inter">
+				<div data-fls-popup-wrapper="" class="popup__wrapper">
+					<div data-fls-popup-body="" class="popup__body">
+						<div class="inter-popup">
+							<div class="inter-popup__header">
+								<div class="inter-popup__title inter-popup__title--warn title _sprite-warn">Delete Account</div>
+								<button data-fls-popup-close="" class="inter-popup__close _sprite-pixel-cross"></button>
+							</div>
+							<div class="inter-popup__text text">
+								<ul>
+									<li>Deleting your account is permanent and cannot be undone.</li>
+									<li>
+										Deletion will prevent you from accessing OpenAI services, including ChatGPT, API, and DALL·E.
+									</li>
+									<li>You cannot create a new account using the same email address.</li>
+									<li>
+										Your data will be deleted within 30 days, except we may retain a limited set of data for longer where
+							required or permitted by law.
+									</li>
+									<li>Read our help center article for more information.</li>
+									<li>
+										You may only delete your account if you have logged in within the last 10 minutes. Please log in again,
+							then return here to continue.
+									</li>
+								</ul>
+							</div>
+							<div class="inter-popup__footer">
+								<button class="inter-popup__button button button--gray">Cancel</button>
+								<button class="inter-popup__button button button--red">Delete Account</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div data-fls-popup="family-email-popup" aria-hidden="true" class="popup popup--inter">
+				<div data-fls-popup-wrapper="" class="popup__wrapper">
+					<div data-fls-popup-body="" class="popup__body">
+						<div class="inter-popup">
+							<div class="inter-popup__header">
+								<div class="inter-popup__title title">Add Family Member</div>
+								<button data-fls-popup-close="" class="inter-popup__close _sprite-pixel-cross"></button>
+							</div>
+							<div class="inter-popup__field field-inter">
+								<div class="field-inter__input input">
+									<input type="email" name="email" placeholder="Name@email.com">
+									<button class="field-inter__button button button--border">Use Phone</button>
+								</div>
+							</div>
+							<div class="inter-popup__label">If your family member is new to ChatGPT, they'll be asked to create an account.</div>
+							<div class="inter-popup__text">
+								<p>
+									If your family member accepts, you'll be able to manage some of their settings, set time limits, and add
+						safeguards that work for your family. You won't have access to details about your teen's conversations with
+						ChatGPT, except in certain rare safety circumstances. You can unlink accounts anytime. Learn more
+								</p>
+							</div>
+							<div class="inter-popup__footer">
+								<button class="inter-popup__button button button--gray">Cancel</button>
+								<button class="inter-popup__button button">Send</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div data-fls-popup="family-phone-popup" aria-hidden="true" class="popup popup--inter">
+				<div data-fls-popup-wrapper="" class="popup__wrapper">
+					<div data-fls-popup-body="" class="popup__body">
+						<div class="inter-popup">
+							<div class="inter-popup__header">
+								<div class="inter-popup__title title">Add Family Member</div>
+								<button data-fls-popup-close="" class="inter-popup__close _sprite-pixel-cross"></button>
+							</div>
+							<div class="inter-popup__field field-inter">
+								<div class="field-inter__select">
+									<select data-fls-select="">
+										<option value="1" selected>+1</option>
+										<option value="2">+38</option>
+										<option value="3">+23</option>
+										<option value="4">+123</option>
+									</select>
+								</div>
+								<div class="field-inter__input input">
+									<input type="text" name="phone" placeholder="Phone number">
+									<button class="field-inter__button button button--border">Use Email</button>
+								</div>
+							</div>
+							<div class="inter-popup__label">If your family member is new to ChatGPT, they'll be asked to create an account.</div>
+							<div class="inter-popup__text">
+								<p>
+									If your family member accepts, you'll be able to manage some of their settings, set time limits, and add
+						safeguards that work for your family. You won't have access to details about your teen's conversations with
+						ChatGPT, except in certain rare safety circumstances. You can unlink accounts anytime. Learn more
+								</p>
+							</div>
+							<div class="inter-popup__footer">
+								<button class="inter-popup__button button button--gray">Cancel</button>
+								<button class="inter-popup__button button">Send</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 			<main class="page">
 				<div class="buttons">
 					<button data-fls-popup-link="add-main-popup" class="button">Add Main</button>
@@ -665,7 +1717,17 @@ Login
 					<button data-fls-popup-link="add-desc-popup" class="button">Add Desc</button>
 					<button data-fls-popup-link="add-tech-popup" class="button">Add Tech</button>
 					<button data-fls-popup-link="trial-popup" class="button">Trial</button>
-					<button data-fls-popup-link="cancel-sub-popup" class="button">Cancel Sub</button>
+					<button data-fls-popup-link="limit-popup" class="button">Limit</button>
+					<button data-fls-popup-link="ai-added-popup" class="button">Ai Added</button>
+					<button data-fls-popup-link="cancel-sub-2-popup" class="button">Cancel Sub 2</button>
+					<button data-fls-popup-link="profile-popup" class="button">Profile</button>
+					<button data-fls-popup-link="auth-popup" class="button">Auth</button>
+					<button data-fls-popup-link="reg-popup" class="button">Register</button>
+					<button data-fls-popup-link="data-export-popup" class="button">Data Export</button>
+					<button data-fls-popup-link="delete-chats-popup" class="button">Delete Chats</button>
+					<button data-fls-popup-link="delete-account-popup" class="button">Delete Account</button>
+					<button data-fls-popup-link="family-email-popup" class="button">Family Email</button>
+					<button data-fls-popup-link="family-phone-popup" class="button">Family Phone</button>
 				</div>
 				<style>
 					.buttons {
@@ -677,7 +1739,6 @@ Login
     }
 				</style>
 			</main>
-			<footer data-fls-footer="" class="footer"></footer>
 		</div>
 	</body>
 </html>

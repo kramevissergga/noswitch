@@ -5,9 +5,9 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="preload" href="./assets/fonts/icons.woff2" as="font" type="font/woff2" crossorigin="anonymous">
 		<link rel="shortcut icon" href="./assets/img/favicon.ico">
-		<title>Сторінки</title>
-		<script type="module" crossorigin="" src="./js/app.min.js?v=1765214827376"></script>
-		<link rel="stylesheet" crossorigin="" href="./css/app.min.css?v=1765214827376">
+		<title>Pages</title>
+		<script type="module" crossorigin="" src="./js/app.min.js?v=1767847332001"></script>
+		<link rel="stylesheet" crossorigin="" href="./css/app.min.css?v=1767847332001">
 	</head>
 	<body>
 		<div class="wrapper">
@@ -48,7 +48,7 @@ Login
 						</div>
 					</div>
 				</a>
-				<div data-theme-toggle="" class="header__theme-switch _sprite-moon"></div>
+				<div data-theme-toggle="" class="header__theme-switch theme-switch _sprite-moon"></div>
 				<select data-fls-select="" data-fls-select-modif="lang">
 					<option data-fls-select-asset="assets/img/header/flags/01.svg" value="1" selected>EN</option>
 					<option data-fls-select-asset="assets/img/header/flags/02.svg" value="2">UK</option>
@@ -239,6 +239,16 @@ Login
 								<button data-sp-ignore="" class="side-menu__sp-add small-icon-side _icon-plus-thin"></button>
 							</div>
 							<div data-spoiler-content="" class="side-menu__block-body">
+								<div class="side-menu__soon-block soon-block">
+									<div class="soon-block__label">Coming soon</div>
+									<div class="soon-block__wrapper">
+										<div class="soon-block__text">
+											<p>
+												It allows multiple users to communicate and collaborate in a shared, real-time conversation thread.
+											</p>
+										</div>
+									</div>
+								</div>
 								<div class="side-menu__item sub-item">
 									<div class="sub-item__icon small-icon-side _sprite-pin"></div>
 									<div class="sub-item__body">
@@ -258,21 +268,152 @@ Login
 					</div>
 				</div>
 			</div>
+			<div data-chat-history="" class="chat-history">
+				<div class="chat-history__header">
+					<div class="chat-history__title">Conversation History</div>
+					<button data-chat-history-toggle="" class="chat-history__close _sprite-pixel-cross"></button>
+				</div>
+				<div class="chat-history__info header-result">
+					<div class="header-result__info">
+						<img alt="Image" class="header-result__pic" src="./assets/img/results/01.webp">
+						<div class="header-result__name">Claude</div>
+					</div>
+				</div>
+				<div class="chat-history__body">
+					<div data-fls-simplebar="" class="chat-history__scroll inner-scrollbar">
+						<div class="chat-history__items">
+							<div class="chat-history__date">Monday 11.02 22025</div>
+							<div class="chat-history__message message-comp _sprite-chat">Best graphics card 2025</div>
+							<div class="chat-history__answer item-result">
+								<div class="item-result__header header-result">
+									<div class="header-result__info">
+										<img alt="Image" class="header-result__pic" src="./assets/img/results/01.webp">
+										<div class="header-result__name">Claude</div>
+									</div>
+									<div class="header-result__actions actions-result">
+										<button class="actions-result__button _sprite-refresh"></button>
+										<button class="actions-result__button _sprite-copy"></button>
+										<button class="actions-result__button _sprite-share"></button>
+									</div>
+								</div>
+								<div class="item-result__body">
+									<div class="item-result__text text">
+										<p>
+											Based on the latest information, here are the best graphics cards in 2025:
+								Best Overall: NVIDIA RTX 5090
+								The RTX 5090 is the undisputed performance king, offering the fastest gaming performance available with
+								32GB of GDDR7 memory on a 512-bit bus PC GamerClub386.
+										</p>
+									</div>
+									<div class="main-input__label main-input__label--generating">
+										<div class="main-input__icon _sprite-generating"></div>
+										Generating...
+									</div>
+								</div>
+							</div>
+							<div class="chat-history__date">04:00 PM</div>
+							<div class="chat-history__message message-comp _sprite-chat">Best graphics card 2025</div>
+							<div class="chat-history__answer item-result">
+								<div class="item-result__header header-result">
+									<div class="header-result__info">
+										<img alt="Image" class="header-result__pic" src="./assets/img/results/01.webp">
+										<div class="header-result__name">Claude</div>
+									</div>
+									<div class="header-result__actions actions-result">
+										<button class="actions-result__button _sprite-refresh"></button>
+										<button class="actions-result__button _sprite-copy"></button>
+										<button class="actions-result__button _sprite-share"></button>
+									</div>
+								</div>
+								<div class="item-result__body">
+									<div class="item-result__text text">
+										<p>
+											Based on the latest information, here are the best graphics cards in 2025:
+								Best Overall: NVIDIA RTX 5090
+								The RTX 5090 is the undisputed performance king, offering the fastest gaming performance available with
+								32GB of GDDR7 memory on a 512-bit bus PC GamerClub386.
+										</p>
+									</div>
+									<div class="main-input__label main-input__label--generating">
+										<div class="main-input__icon _sprite-generating"></div>
+										Generating...
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="chat-history__footer">
+					<div class="chat-history__input main-input main-input--small">
+						<button class="main-input__send">
+							<svg xmlns="http://www.w3.org/2000/svg" width="50" height="48" viewbox="0 0 50 48" fill="none">
+								<rect width="7" height="7" transform="matrix(-1 0 0 1 19 0)" fill="var(--hv-dark-color, #C6232D)"></rect>
+								<rect width="7" height="7" transform="matrix(-1 0 0 1 32 7)" fill="var(--hv-dark-color, #C6232D)"></rect>
+								<rect width="7" height="7" transform="matrix(-1 0 0 1 45 13)" fill="var(--hv-dark-color, #C6232D)"></rect>
+								<rect width="7" height="7" transform="matrix(-1 0 0 1 45 27)" fill="var(--hv-dark-color, #C6232D)"></rect>
+								<rect width="7" height="7" transform="matrix(-1 0 0 1 32 34)" fill="var(--hv-dark-color, #C6232D)"></rect>
+								<rect width="7" height="7" transform="matrix(-1 0 0 1 22 41)" fill="var(--hv-dark-color, #C6232D)"></rect>
+								<rect width="7" height="7" transform="matrix(-1 0 0 1 50 20)" fill="var(--hv-dark-color, #C6232D)"></rect>
+								<rect width="7" height="7" transform="matrix(-1 0 0 1 14 0)" fill="#D9D9D9"></rect>
+								<rect width="7" height="7" transform="matrix(-1 0 0 1 7 0)" fill="#D9D9D9"></rect>
+								<rect width="7" height="7" transform="matrix(-1 0 0 1 7 7)" fill="#D9D9D9"></rect>
+								<rect width="7" height="7" transform="matrix(-1 0 0 1 7 14)" fill="#D9D9D9"></rect>
+								<rect width="7" height="7" transform="matrix(-1 0 0 1 7 21)" fill="#D9D9D9"></rect>
+								<rect width="7" height="7" transform="matrix(-1 0 0 1 7 28)" fill="#D9D9D9"></rect>
+								<rect width="7" height="7" transform="matrix(-1 0 0 1 7 35)" fill="#D9D9D9"></rect>
+								<rect width="7" height="7" transform="matrix(-1 0 0 1 7 41)" fill="#D9D9D9"></rect>
+								<rect width="7" height="7" transform="matrix(-1 0 0 1 13 41)" fill="#D9D9D9"></rect>
+								<rect width="7" height="7" transform="matrix(-1 0 0 1 29 34)" fill="#D9D9D9"></rect>
+								<rect width="7" height="7" transform="matrix(-1 0 0 1 41 27)" fill="#D9D9D9"></rect>
+								<rect width="7" height="7" transform="matrix(-1 0 0 1 46 20)" fill="#D9D9D9"></rect>
+								<rect width="7" height="7" transform="matrix(-1 0 0 1 40 13)" fill="#D9D9D9"></rect>
+								<rect width="7" height="7" transform="matrix(-1 0 0 1 28 7)" fill="#D9D9D9"></rect>
+								<rect width="7" height="7" transform="matrix(-1 0 0 1 19 41)" fill="#D9D9D9"></rect>
+								<rect width="7" height="7" transform="matrix(-1 0 0 1 22 34)" fill="#D9D9D9"></rect>
+								<rect width="7" height="7" transform="matrix(-1 0 0 1 34 27)" fill="#D9D9D9"></rect>
+								<rect width="7" height="7" transform="matrix(-1 0 0 1 39 20)" fill="#D9D9D9"></rect>
+								<rect width="7" height="7" transform="matrix(-1 0 0 1 33 13)" fill="#D9D9D9"></rect>
+								<rect width="7" height="7" transform="matrix(-1 0 0 1 21 7)" fill="#D9D9D9"></rect>
+							</svg>
+						</button>
+						<div data-fls-simplebar="" class="main-input__scroll inner-scrollbar">
+							<div class="main-input__wrapper">
+								<div class="main-input__info">
+									<div class="main-input__placeholder">Search anything</div>
+									<!--
+<div class="main-input__label main-input__label--generating">
+<div class="main-input__icon _sprite-generating">
+</div>
+Generating...
+</div>
+<div class="main-input__label main-input__label--error">
+<div class="main-input__icon _sprite-error">
+</div>
+Error
+</div>
+-->
+								</div>
+								<textarea rows="1" placeholder="" class="main-input__textarea"></textarea>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 			<main class="page">
 				<div class="page__pages pages">
 					<div class="pages__container">
-						<a target="_blank" href="index.html" class="button">Головна</a>
-						<a target="_blank" href="catalog.html" class="button">Каталог</a>
-						<a target="_blank" href="product.html" class="button">Товар</a>
-						<a target="_blank" href="cart.html" class="button">Кошик</a>
-						<a target="_blank" href="checkout.html" class="button">Оформлення замовлення</a>
-						<a target="_blank" href="shipping.html" class="button">Доставка і оплата</a>
-						<a target="_blank" href="wholesale.html" class="button">Оптовикам</a>
-						<a target="_blank" href="blog.html" class="button">Блог</a>
-						<a target="_blank" href="videos.html" class="button">Відео</a>
-						<a target="_blank" href="article.html" class="button">Стаття</a>
-						<a target="_blank" href="contacts.html" class="button">Контакти</a>
-						<a target="_blank" href="popups.html" class="button">Попапи</a>
+						<a target="_blank" href="index.html" class="button">Home</a>
+						<a target="_blank" href="catalog.html" class="button">Catalog</a>
+						<a target="_blank" href="model.html" class="button">Model</a>
+						<a target="_blank" href="preloader.html" class="button">Preloader</a>
+						<a target="_blank" href="results-2.html" class="button">Results 2</a>
+						<a target="_blank" href="results-4.html" class="button">Results 4</a>
+						<a target="_blank" href="results-8.html" class="button">Results 8</a>
+						<a target="_blank" href="results-full.html" class="button">Results Full</a>
+						<a target="_blank" href="subs.html" class="button">Subs</a>
+						<a target="_blank" href="subs-active.html" class="button">Subs Active</a>
+						<a target="_blank" href="faq.html" class="button">FAQ</a>
+						<a target="_blank" href="popups.html" class="button">Popups</a>
 					</div>
 				</div>
 			</main>
@@ -285,7 +426,6 @@ Login
     padding-top: 10px;
   }
 			</style>
-			<footer data-fls-footer="" class="footer"></footer>
 		</div>
 	</body>
 </html>
